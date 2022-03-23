@@ -17,7 +17,6 @@ ResourcePref resources[] = {
         { "color1",       STRING,  &colorname[FAILED] },
 };
 
-
 /* treat a cleared input like a wrong password (color) */
 static const int failonclear = 1;
 
@@ -66,8 +65,8 @@ static XRectangle rectangles[5] = {
 /*Enable blur*/
 #define BLUR
 /*Set blur radius*/
-static const int blurRadius=15;
+static const int blurRadius=20;
 /*Enable Pixelation*/
-//#define PIXELATION
+#define PIXELATION
 /*Set pixelation radius*/
-static const int pixelSize=0;
+static const int pixelSize=20;
