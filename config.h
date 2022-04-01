@@ -31,7 +31,7 @@ static const char *failcommand = "ffmpeg -y -loglevel quiet -f v4l2 -i /dev/vide
 static const int monitortime = 60;
 
 /* insert grid pattern with scale 1:1, the size can be changed with logosize */
-static const int logosize = 80;
+static const int logosize = 60;
 static const int logow = 6;     /* grid width and height for right center alignment*/
 static const int logoh = 6;
 //static const int logow = 13;
@@ -67,6 +67,6 @@ static XRectangle rectangles[5] = {
 /*Set blur radius*/
 static const int blurRadius=20;
 /*Enable Pixelation*/
-#define PIXELATION
+//#define PIXELATION
 /*Set pixelation radius*/
-static const int pixelSize=20;
+static const int pixelSize=30;
